@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0F172A;
+  --foreground: #F8FAFC;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.glass-panel {
+  background-color: #1e293b;
+  border-width: 1px;
+  border-color: #334155;
+}
+
+.new-item-flash {
+  border-color: #3B82F6;
+}
